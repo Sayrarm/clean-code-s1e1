@@ -28,11 +28,11 @@
   </div>
 
   <div class="todo-list">
-    <p class="todo-list-add-field" id="topSectionForAddingElementToList">
-      <label class="todo-list-title" for="new-task">Add Item</label>
+    <p class="todo-list-add-field" id="todo-list-add-field">
+      <label class="todo-list-title" for="todo-list-new-task">Add Item</label>
       <div class="todo-list-row">
         <input
-        id="new-task"
+        id="todo-list-new-task"
         class="todo-list-input-text-new"
         type="text"
         >
@@ -41,17 +41,17 @@
     </p>
 
     <h3 class="todo-list-title">Todo</h3>
-    <ul id="incompleteTasks">
+    <ul id="todo-list-incomplete">
       <li class="todo-list-item">
         <input class="todo-list-item-checkbox" type="checkbox">
         <label class="todo-list-input-example">Pay Bills</label>
         <input type="text" class="todo-list-input-text">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <button class="todo-list-button-edit">Edit</button>
+        <button class="todo-list-button-delete">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="editMode">
+      <li class="todo-list-edit-mode">
         <input class="todo-list-item-checkbox" type="checkbox">
         <label class="todo-list-input-example">Go Shopping</label>
         <input
@@ -59,21 +59,21 @@
         value="Go Shopping"
         class="todo-list-input-text"
         >
-        <button class="edit">Save</button>
-        <button class="delete">
+        <button class="todo-list-button-edit">Save</button>
+        <button class="todo-list-button-delete">
           <img src="./remove.svg">
         </button>
       </li>
     </ul>
 
     <h3 class="todo-list-title">Completed</h3>
-    <ul id="completed-tasks">
+    <ul id="todo-list-completed">
       <li class="todo-list-item">
         <input class="todo-list-item-checkbox" type="checkbox" checked>
         <label class="todo-list-input-example">See the Doctor</label>
         <input type="text" class="todo-list-input-text">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <button class="todo-list-button-edit">Edit</button>
+        <button class="todo-list-button-delete">
           <img src="./remove.svg">
         </button>
       </li>
